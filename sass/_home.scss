@@ -1,0 +1,62 @@
+.nav {
+  display: flex;
+  background: linear-gradient(
+    89.96deg,
+    #000000 0.04%,
+    rgba(255, 255, 255, 0) 99.97%
+  );
+  &__logo {
+    margin-left: 104px;
+    padding-top: 53px;
+  }
+  &__links {
+    display: flex;
+    .nav__links-wrapper {
+      color: #ffffff;
+      display: flex;
+      //   padding-top: 33px;
+      align-items: center;
+      justify-content: space-evenly;
+      span,
+      a {
+        margin-left: 35px;
+        color: #ffffff;
+      }
+    }
+    margin-left: 90px;
+  }
+  &__button {
+    margin-left: auto;
+    .user-btn {
+      padding: 50px;
+      margin-right: 40px;
+    }
+  }
+}
+.second-div {
+  background: linear-gradient(
+    89.96deg,
+    #000000 0.04%,
+    rgba(255, 255, 255, 0) 99.97%
+  );
+  .second-container {
+    margin-left: 104px;
+    color: #ffffff;
+
+    font-size: 600;
+    .model {
+      font-size: 500%;
+      margin-top: 20px;
+    }
+  }
+  .trio {
+    margin-top: 60px;
+  }
+  .second-trio {
+    display:flex;
+
+    
+
+ 
+  }
+}
